@@ -1,0 +1,40 @@
+html {
+  font-size: 10px; /* px bedeutet 'pixels': die Schriftgröße wird auf 10 Pixel gesetzt  */
+  font-family: Open+Sans; /* hier kommt der Name der ausgewählten Schriftfamilie hin */
+}
+body {
+  width: 1000px;
+  background-color: #FF9500;
+  margin: 50px auto;/*beeinflusst den Abstand ausserhalb des Bodys*/
+  padding: 0 20px 20px 200px; /* beeinflusst den Abstand innerhalb des Bodies*/
+  border: 5px solid black;   
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+  font-size: 60px;
+ /* text-align: center;  */
+}  
+h2 {
+  font-size: 40px;
+ /* text-align: center;*/
+}
+p, li , a{
+  font-size: 20px;    
+  line-height: 1;
+  letter-spacing: 1px;
+    }
+.my-class {
+border: 5px solid black;
+}	
+	
+html {
+  background-color: #ff3300;
+}
+/* Dies ist ein Kommentar */
+img {
+  display: block;
+  margin: 0 auto;
+}
